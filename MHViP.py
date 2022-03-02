@@ -338,7 +338,7 @@ class Argument(ArgumentParser):
             return arg
         
         if not arg.method:
-            self.error("argument -m/--method: expected one argument [Leaked by @ph03n1x69]")
+            self.error("argument -m/--method: expected one argument [Leaked by @frank]")
         
         if arg.scan:
             event: Event = _synEvent()
